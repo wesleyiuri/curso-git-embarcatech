@@ -1,0 +1,19 @@
+cd Documentos
+pwd
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech
+git init --initial-branch=main
+git config user.name "Wesley"
+git config user.email "wesley.iuri@hotmail.com"
+git config --list --local
+git status
+git add aluno.txt
+git status
+git commit -m "primeiro commit"
+git status
+git remote add origin https://github.com/wesleyiuri/curso-git-embarcatech.git
+git push -u origin main
+git add comandos.txt
+git commit -m "segundo commit"
+git status
+git push
